@@ -25,7 +25,7 @@ boring.
 # Windows 10 Activation and Activators
 
 Windows has seen a lot of activators in its time. Instead of fixing the problem
-once and for all Microsoft went for reinventing the wheel with Windows 10 and
+once and for all Microsoft went for uninventing the wheel with Windows 10 and
 made fraudulent activation as easy as possible. (As to why they did it, the
 reason is likely very simple - they want you to keep using Windows. That's it.)
 
