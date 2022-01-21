@@ -122,7 +122,7 @@ above. But first, we need to know what activation methods there even are.
 ### Types of Windows 10 Activation
 For Windows 10 there are four main types of activation. Those are:
 
- * **Online KMS activation**
+ * **Emulated KMS activation**
  * **KMS38**
  * **HWID / Digital License**
  * Buying it legally (lmao)
