@@ -74,7 +74,7 @@ when the OEM doesn't want to bother with activation during manufacturing. In
 terms more people might understand, NSLP is analogous to COA.
 
 ### Volume Licensing
-Microsoft's bigger customers that "need" more licenses for more computer can opt
+Microsoft's bigger customers that "need" more licenses for more computers can opt
 in for an easier way to manage and pay their Microsoft overlords for their OS
 needs.
 Volume licensing offers two ways to activate Microsoft products: via the
