@@ -69,10 +69,9 @@ There are multiple types of keys that will accompany OEM licenses. Those are:
 The differences between them are pretty extreme but ultimately do not matter
 that much. In short, **SLP** keys do not require Microsoft's activation servers
 to activate - the OEM marks a machine as activated during manufacturing,
-**DM** are the "BIOS keys" you might have seen/heard about and **NSLP**s are the
-**SLP** equivalent for when the OEM doesn't want to bother with activation
-during manufacturing. In terms more people might understand, NSLP is analogous
-to COA.
+**DM** are the "BIOS keys" you might have seen/heard about and **NSLP**s are for
+when the OEM doesn't want to bother with activation during manufacturing. In
+terms more people might understand, NSLP is analogous to COA.
 
 ### Volume Licensing
 Microsoft's bigger customers that "need" more licenses for more computer can opt
