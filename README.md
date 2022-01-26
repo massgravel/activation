@@ -127,4 +127,4 @@ For Windows 10 there are four main types of activation. Those are:
  * **HWID / Digital License**
  * Buying it legally (lmao)
 
-***Work in Progress***
+[Generic information](Activation.md) about activation processes.
