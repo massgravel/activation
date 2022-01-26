@@ -40,7 +40,8 @@ Other than full  licenses, there are **grants** that are valid for a limited
 time. After the time period specified in the grant expires your system will want
 to renew it, prompting what is essentially a "reactivation" of the product.
 
-Deposited licenses and grants can be found in `%windir%\System32\spp\store`.
+Deposited licenses and grants can be found in `%windir%\System32\spp\store` and
+`%programdata%\Microsoft\Windows\ClipSVC`.
 Here's likely the simplest way to look through licenses in `tokens.dat`:
 
 ```sh
