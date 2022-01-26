@@ -66,7 +66,7 @@ license"). This type of license is retrieved through **any** of the following:
  * **Machine**
  * **Microsoft account**
  
-All those above, except the **Machine** type are subject to RIT and ROT related
+All those above, except the **Machine** type (**TBV**) are subject to RIT and ROT related
 effects. (**TODO** Explanation)
  
 ### Product key
