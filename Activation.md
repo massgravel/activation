@@ -68,8 +68,45 @@ license"). This type of license is retrieved through **any** of the following:
  * **Microsoft account**
  
 All those above, except the **Machine** type (**TBV**) are subject to RIT and ROT related
-effects. (**TODO** Explanation)
- 
+effects.
+
+### RIT and ROT
+
+When the hardware ID for the machine for which a license is issued changes, the
+license has to be **reissued**. There are two recozniged types of reissues:
+
+ * Reissue **In-Tolerance**
+ * Reissue **Out-of-Tolerance**
+
+In-tolerance reissues guarantee that the license sticks through some number of minor hardware
+changes. Out-of-tolerance reissues usually happen for drastic hardware changes, disk transfers
+and MSA (Microsoft Account) transfers.
+
+#### Reissue In-Tolerance
+
+When the hardware changes only slightly (or is client-correctable, e.g. by adjusting for RAM)
+a Reissue In-Tolerance is triggered and the license's Hardware ID is adjusted
+to match the new one.
+
+The "RIT limit", for how many times such a reissue can happen, is currently thought to be
+unlimited.
+
+#### Reissue Out-of-Tolerance
+
+When a drastic hardware change is detected and the license no longer matches - a Reissue
+Out-of-Tolerance is triggered. The process is roughly the same as for RIT, except the limit
+for how many reissues can happen is much lower.
+
+A reissue out-of-tolerance also happens when the same product key is installed on a
+different machine, when the license store is moved to a different machine or via a 
+Microsoft account.
+
+The limit for Out-of-Tolerance reissues likely depends on the following:
+
+ * Region (the license's assigned market)
+ * Product (the licensed edition)
+ * **Type of license** (Retail / OEM, tolerance a lot lower for OEM)
+
 ### Product key
 
 When a valid Windows 10 product key is installed, activation will be attempted.
