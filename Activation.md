@@ -73,7 +73,7 @@ effects.
 ### RIT and ROT
 
 When the hardware ID for the machine for which a license is issued changes, the
-license has to be **reissued**. There are two recozniged types of reissues:
+license has to be **reissued**. There are two recognized types of reissues:
 
  * Reissue **In-Tolerance**
  * Reissue **Out-of-Tolerance**
