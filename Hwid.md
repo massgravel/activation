@@ -1,6 +1,6 @@
 # HWID Activation Method
 
-Welcome to the `HWID` document. This has some detauks about the HWID activation method.
+Welcome to the `HWID` document. This has some details about the HWID activation method.
 
 # Scope
 
