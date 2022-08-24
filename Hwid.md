@@ -1,10 +1,10 @@
 # HWID Activation Method
 
-Welcome to the `HWID` document. This has some detailed about the HWID activation method.
+Welcome to the `HWID` document. This has some detauks about the HWID activation method.
 
 # Scope
 
-How and why `HWID` works is somewhat complicated because of all the preliminary "knowledge" required to know why the very thing abused by HWID activators exists at all.
+How and why `HWID` works is somewhat complicated because of all the preliminary "knowledge" required to know why the very thing abused by HWID activators exists at all. Hence, this document.
 
 # Digital Licenses
 
