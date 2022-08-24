@@ -125,4 +125,8 @@ The type corresponds to identifiers of Hardware Collectors in the HWID algorithm
 
 When **locally** verifying a hardware ID, you sum all the weights of components matching with the license's HWID and determine if they are equal to or over the threshold. If they aren't, the HWID does not match (`ClipUp` exits with an error).
  
+### Further reading
+
+If you're interested, the (somewhat outdated but still matching) patent for this type of Hardware ID can be found [here](https://patents.google.com/patent/US7302590B2).
+
 ### Work In (slow) Progress
