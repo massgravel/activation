@@ -50,8 +50,8 @@ The Hardware ID is a magical data structure built by evaluationg the system's ha
 ```c
 struct HWID_BLOCK {
     uint16_t wSize;
-    uint16_t wVersion; // 0 for all tools
-    uint16_t threshold; // (TBV) Set to 0x13
+    uint16_t wVersion; // 0 for all
+    uint16_t threshold; // Set to 0x13
     struct HWID hwid; // variable length
     struct TIMEWEIGHT tw; // variable length
 }
@@ -61,16 +61,21 @@ struct HWID_BLOCK {
 
 ```c
 struct HWID {
-    uint32_t dwSize; // no version here, I think
-    uint16_t nInstances[9];
-    uint16_t bDockOrPCMCIA;
+    uint16_t size;
+    uint16_t version;
+    uint16_t instances[9];
+    uint16_t dock_or_PCMCIA;
     uint16_t hashRAM;
-    uint16_t hashSMBIOS;
-    uint16_t instanceHashes[nInstances];
-}
+    uint16_t hashBIOS;
+    uint16_t instanceHashes[];
+};
 ```
 
 The hashes are all SHA-256 truncated to 15 bits; the 16th bit is set to whether the device is removable (1 if removable).
+
+#### `version`
+
+This is the version of the hardware ID. It is set to `0` for all implementations I'm aware of.
 
 #### `nInstances`
 
