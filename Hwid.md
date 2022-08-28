@@ -43,7 +43,7 @@ These are put into a file called the Genuine Authorization Ticket (`GenuineTicke
 
 The activation method's name - "HWID" - refers to this very parameter so it must be important.
 
-The Hardware ID is a magical data structure built by evaluationg the system's hardware. In the ticket, it is found under the base64 string `SessionId`. The `Hwid` string is the base64 representation of the `HWID_BLOCK` structure.
+The Hardware ID is a magical data structure built by evaluating the system's hardware. In the ticket, it is found under the base64 string `SessionId`. The `Hwid` string is the base64 representation of the `HWID_BLOCK` structure.
 
 ### HWID_BLOCK
 
