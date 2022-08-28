@@ -134,4 +134,39 @@ When **locally** verifying a hardware ID, you sum all the weights of components 
 
 If you're interested, the (somewhat outdated but still matching) patent for this type of Hardware ID can be found [here](https://patents.google.com/patent/US7302590B2).
 
+## Product Family Name
+
+The **Product family name** is a string that identifies a product family in the Microsoft store. When it comes to Windows, it is composed of a few mostly stationary parts:
+
+```
+Microsoft.Windows.191.X21-99682_8wekyb3d8bbwe
+```
+
+The above PFN corresponds to the following fields:
+
+```
+Package Identity Name: Microsoft.Windows.191.X21-99682
+Publisher String: 8wekyb3d8bbwe
+```
+
+In turn, the parts of Package Identity Name are:
+
+ - **Product**: `Microsoft Windows`
+ - **SKU ID**: `191` (IoT Enterprise LTSC)
+ - **Product Key Part Number**: `X21-99682`
+
+### Publisher String
+
+The publisher string is made by hashing some data about the publisher ([here](https://stackoverflow.com/questions/21568483/how-to-calculate-publisherid-from-publisher)). For all intents and purposes, it's a constant value.
+
+### SKU ID
+
+This value corresponds to the edition. You can find an (almost) full list of these IDs in Windows SDK's `winnt.h`.
+
+### Product Key Part Number
+
+The product key part number is a value specific to a given range of product key IDs belonging to a given group. Most commonly, you can find it on COA stickers. It's basically the "signature" of a key range; different ranges can have different policies, some ranges can be reserved for testing, etc. etc.
+
+The part numbers can also be specific to markets (basically countries) in the Store itself, though I have no concrete examples of this.
+
 ### Work In (slow) Progress
